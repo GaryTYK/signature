@@ -15,6 +15,6 @@ function clearStorageAndGoBack() {
     localStorage.removeItem('name');
     localStorage.removeItem('email');
     localStorage.removeItem('signature');
-    // 返回上一頁
-    window.history.back();
+    // 返回
+    window.location.href = 'index.html';
 }
