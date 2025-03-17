@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>簽名顯示</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>用戶資料</h1>
+        <div class="user-info">
+            <p><strong>姓名:</strong> <span id="displayName"></span></p>
+            <p><strong>電子郵件:</strong> <span id="displayEmail"></span></p>
+        </div>
+        <p><strong>簽名:</strong></p>
+        <img id="displaySignature" alt="簽名" class="signature" />
+
+        <button onclick="clearStorageAndGoBack()" class="back-button">
+            返回
+        </button>
+    </div>
+
+    <script src="js/display.js"></script>
+</body>
+
+</html>
