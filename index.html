@@ -17,7 +17,9 @@
         <input type="email" id="email" required>
 
         <label for="signature">簽名:</label>
-        <canvas id="signature" width="400" height="200" style="border:1px solid #ccc;"></canvas>
+        <div class="canvas-container">
+            <canvas id="signature" style="border:1px solid #ccc;"></canvas>
+        </div>
         <button type="button" id="clearSignature">清除簽名</button>
 
         <button type="submit">提交</button>
